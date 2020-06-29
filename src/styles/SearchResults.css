@@ -1,0 +1,22 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5 px;
+    justify-content: center;
+    
+}
+
+.image {
+    max-height: 15vw;
+    min-width: 20%;
+    object-fit: cover;
+    vertical-align: bottom;
+    margin: 2%;
+    border-radius: 8px;
+}
+
+.no-result {
+    align-self: center;
+    font-size: 2vw;
+    font-weight: 500;
+}
