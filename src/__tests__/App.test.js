@@ -6,7 +6,7 @@ describe('App', () => {
     it('renders correctly to match the App snapshot', () => {
         const {asFragment} = render(<App />);
   
-        expect(asFragment).toMatchSnapshot();
+        expect(asFragment()).toMatchSnapshot();
     });
 
     it('renders App correctly', () => {

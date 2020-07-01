@@ -1,3 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App renders correctly to match the App snapshot 1`] = `[Function]`;
+exports[`App renders correctly to match the App snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <img
+      alt="NASAlogo"
+      class="nasa-logo"
+      src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+    />
+    <form
+      class="search-form"
+    >
+      <input
+        class="search-input"
+        placeholder="Search for an image"
+        type="text"
+      />
+      <button
+        class="submit-button"
+        name="go"
+        type="submit"
+      >
+        Go!
+      </button>
+    </form>
+    <h1
+      class="no-result"
+    >
+      No result
+    </h1>
+  </div>
+</DocumentFragment>
+`;

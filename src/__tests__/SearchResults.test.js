@@ -7,7 +7,7 @@ describe('SearchResults', () => {
     const results = ['img1']
     const {asFragment} = render(<SearchResults results = {results}/>);
 
-    expect(asFragment).toMatchSnapshot();
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it('renders SearchResult correctly', () => {

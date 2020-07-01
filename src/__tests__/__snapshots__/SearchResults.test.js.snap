@@ -1,3 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SearchResults renders correctly to match the SearchResults snapshot 1`] = `[Function]`;
+exports[`SearchResults renders correctly to match the SearchResults snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="image-container"
+  >
+    <img
+      alt="spaceImage"
+      class="image"
+      src="img1"
+    />
+  </div>
+</DocumentFragment>
+`;
